@@ -1,0 +1,40 @@
+/* Main page header */
+
+#welcomeheader {
+    font-size: 5em;
+    padding: 2em 0em 1.2em 0em;
+}
+
+/* About me header and text */
+
+#aboutmecontainer {
+    padding: 1.5em 0em 5em 1em;
+    height: 25em;
+}
+
+#aboutheader {
+    font-size: 3em;
+    text-align: start;
+}
+
+#aboutsum {
+    display: inline-block;
+    font-size: 1.2em;
+    text-align: start;
+    width: 35em;
+}
+
+#logocontainer {
+    float: right;
+    height: 25em;
+    width: 45em;
+}
+
+#aboutmelogos {
+    display: inline-flexbox;
+    padding: 1em 1em;
+    height: 6.5em;
+    width: 6.5em;
+}
+
+/* Animations stuff*/
