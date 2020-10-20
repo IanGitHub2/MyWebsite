@@ -1,13 +1,21 @@
 /* Main page header */
 
+#welcomecontainer {
+    background-color: rgba(231, 222, 200, .7);
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
 #welcomeheader {
     font-size: 5em;
-    padding: 2em 0em 1.2em 0em;
+    margin-bottom: 1.2em;
+    padding: 1.5em 0em 1.2em 0em;
 }
 
 /* About me header and text */
 
 #aboutmecontainer {
+    margin-bottom: 4em;
     padding: 1.5em 0em 5em 1em;
     height: 25em;
 }
@@ -15,19 +23,29 @@
 #aboutheader {
     font-size: 3em;
     text-align: start;
+    margin-left: 1.6em;
 }
 
 #aboutsum {
     display: inline-block;
     font-size: 1.2em;
     text-align: start;
-    width: 35em;
+    width: 28em;
+    background-color: rgba(203, 175, 135, .4);
+    border-radius: 18%;
+    padding: 1.2em;
 }
 
 #logocontainer {
     float: right;
     height: 25em;
     width: 45em;
+    border-top: solid .2em burlywood;
+    border-left: solid .2em burlywood;
+    border-bottom:solid .2em burlywood;
+    background-color: rgba(203, 175, 135, .4);
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
 }
 
 #aboutmelogos {
@@ -35,6 +53,7 @@
     padding: 1em 1em;
     height: 6.5em;
     width: 6.5em;
+    border-radius: 15%;
 }
 
 /* Animations stuff*/

@@ -1,0 +1,23 @@
+#projectsContainer {
+    background-color: rgba(126, 138, 151, .4);
+    height: 50em;
+    width: 90em;
+}
+
+#eachproject {
+    float: left;
+    margin: 1em;
+    height: 20em;
+    width: 35em;
+    background-color: rgba(48, 71, 94, .8);
+    border-radius: 10%;
+}
+
+#projectsheader {
+    font-size: 4em;
+}
+
+.projecttitle {
+    font-size: 4em;
+    font-weight: 500;
+}
