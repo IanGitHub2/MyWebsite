@@ -11,7 +11,7 @@ export default class myProjects extends React.Component {
                     <div className='projecttitle'>Connect 4</div>
                     <a href='https://infallible-mcnulty-f386b4.netlify.app' target="_blank" rel='noopener noreferrer'>Link to website</a>
                     <div> Connect 4 give it a try.</div>
-                    <img alt='Connect 4' src='./connect4.png'/>
+                    <img className='projectimages' alt='Connect 4' src='./connect4.png'/>
                 </div>
                 <div id='eachproject'>
                     <div className='projecttitle'>Movie Site</div>
