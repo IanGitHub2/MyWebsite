@@ -1,20 +1,21 @@
 #projectsContainer {
-    background-color: rgba(126, 138, 151, .4);
-    height: 50em;
+    background-color: rgba(48, 71, 94, .8);
+    height: 45em;
     width: 90em;
+}
+
+#projectsheader {
+    font-size: 5em;
+    margin-bottom: .4em;
 }
 
 #eachproject {
     float: left;
-    margin: 1em;
+    margin: 1em 4.8em;
     height: 20em;
     width: 35em;
-    background-color: rgba(48, 71, 94, .8);
+    background-color: rgb(176, 185, 196);
     border-radius: 10%;
-}
-
-#projectsheader {
-    font-size: 4em;
 }
 
 .projecttitle {
