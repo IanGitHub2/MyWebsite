@@ -6,6 +6,7 @@
 
 #projectsheader {
     font-size: 5em;
+    font-family: 'Playfair Display', serif;
     margin-bottom: .4em;
 }
 
@@ -20,10 +21,15 @@
 
 .projecttitle {
     font-size: 4em;
+    font-family: 'Playfair Display', serif;
     font-weight: 500;
 }
 
+.projectdef {
+    font-family: 'Playfair Display', serif;
+}
+
 .projectimages {
-    height: 1em;
-    width: 1em;
+    height: 35px;
+    width:35px;
 }
