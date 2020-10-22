@@ -43,11 +43,23 @@
 }
 
 #aboutheader {
+    display: inline-block;
+    width: 48%;
     font-size: 3em;
     font-family: 'Playfair Display', serif;
     text-align: start;
-    margin-left: 1.6em;
     animation: slide-in-left 2s;
+    animation-fill-mode: forwards;
+}
+
+#skillsheader {
+    display: inline-block;
+    width: 3%;
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+    text-align: end;
+    padding-right: 11em;
+    animation: slide-in-right 2s;
     animation-fill-mode: forwards;
 }
 

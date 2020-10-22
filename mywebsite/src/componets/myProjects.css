@@ -30,6 +30,7 @@
 }
 
 .projectimages {
-    height: 35px;
-    width:35px;
+    height: 13em;
+    width: 35em;
+    border-radius: 20%;
 }
