@@ -19,7 +19,7 @@ export default class mainPage extends React.Component {
                     <p id='jobtext'>Software Engineer</p>
                 </div>
              </div>
-             <div>
+             <div id='headercontainer'>
                 <div id='aboutheader'>About Me</div>
                 <div id='skillsheader'>Skills</div>
              </div>
