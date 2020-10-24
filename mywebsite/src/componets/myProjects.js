@@ -18,7 +18,7 @@ export default class myProjects extends React.Component {
                         <a href='https://infallible-mcnulty-f386b4.netlify.app' target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Website</div></a>
                         <a href='https://github.com/IanGitHub2/Project-1---Connect-4' target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Code</div></a>
                     </div>
-                    <div className='projectdef'> Connect 4 give it a try. One of my first projects with functionality.</div>
+                    <div className='projectdef'> Connect 4 was one of my first projects that had me working with for loops and if else statements to create a game. Made with Javascript, HTML, CSS, Bootstrap.</div>
                 </div>
                 <div id='eachproject'>
                     <div className='projecttitle'>Movie Site</div>
@@ -27,7 +27,7 @@ export default class myProjects extends React.Component {
                         <a href='https://brave-nobel-691c58.netlify.app' target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Website</div></a>
                         <a href='https://github.com/IanGitHub2/Home-Movies' target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Code</div></a>
                     </div>
-                    <div className='projectdef'> A parody of say netflix or hulu. Simple react app.</div>
+                    <div className='projectdef'>This is a front-end app that is meant to be my take on a streaming platform. Made using Create-react-app, and some CSS.</div>
                 </div>
                 <div id='eachproject'>
                     <div className='projecttitle'>Rush</div>
@@ -36,7 +36,7 @@ export default class myProjects extends React.Component {
                         <a href='https://rush-project-3.herokuapp.com/' target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Website</div></a>
                         <a href='https://github.com/IanGitHub2/Project3Rush' target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Code</div></a>
                     </div>
-                    <div className='projectdef'> Rush is like a social media website.</div>
+                    <div className='projectdef'>Rush is a site to post pictures of things you like, their cost and more. Made with the MERN template stack, CSS. </div>
                 </div>
                 <div id='eachproject'>
                     <div className='projecttitle'>C.P.S</div>
@@ -45,7 +45,7 @@ export default class myProjects extends React.Component {
                         <a href='https://infinite-badlands-56464.herokuapp.com/company/' target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Website</div></a>
                         <a href='https://github.com/IanGitHub2/Project-2-C.P.S' target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Code</div></a>
                     </div>
-                    <div className='projectdef'>C.P.S stands for Company / Products / Sellers.</div>
+                    <div className='projectdef'>C.P.S or Companies, Products, Sellers was a project to teach me how to pass data using express and mongodb. Made with the MERN template stack, CSS.</div>
                 </div>
                 <div id='eachproject'>
                     <div className='projecttitle'>Bike Repair</div>
@@ -53,7 +53,7 @@ export default class myProjects extends React.Component {
                     <div>
                         <a href='https://git.generalassemb.ly/IanGtHbE1/feral-code' target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Code</div></a>
                     </div>
-                    <div className='projectdef'>Bike repair app front end react back end django.</div>
+                    <div className='projectdef'>Bike repair app was the project that brought what I had learned from python, django, react, axios, react-router-dom and brought it together to create this. Made with React, Python, Django, CSS.</div>
                 </div>
               </div>
             </div>

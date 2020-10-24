@@ -37,7 +37,7 @@
 /* About me header and text */
 
 #aboutmecontainer {
-    margin-bottom: 4em;
+    margin-bottom: 8em;
     padding: 1.5em 0em 2em 1em;
     height: 25em;
 }
@@ -81,13 +81,18 @@
     animation-fill-mode: forwards;
 }
 
+.programminglan {
+    display: inline;
+    font-weight: 600;
+}
+
 /* Logos for skills*/
 
 
 
 #logocontainer {
     float: right;
-    height: 25em;
+    height: 26em;
     width: 45em;
     border-top: solid .2em olive;
     border-left: solid .2em olive;
