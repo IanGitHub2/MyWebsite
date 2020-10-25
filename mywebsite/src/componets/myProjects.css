@@ -1,4 +1,5 @@
 #projectsContainer {
+    overflow: auto;
     background-color: rgba(79, 172, 209, 0.8);
     height: 77em;
     width: 90em;
@@ -55,6 +56,7 @@
 
 @media only screen and (max-width: 800px){
     #projectsContainer {
+        overflow: auto;
         background-color: rgba(79, 172, 209, 0.8);
         height: 155em;
         width: 24em;
@@ -95,6 +97,7 @@
     }
     
     .projectdef {
+        overflow: auto;
         font-family: 'Playfair Display', serif;
         margin-top: .7em;
     }

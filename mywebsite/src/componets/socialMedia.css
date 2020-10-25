@@ -1,0 +1,10 @@
+/* Social media links*/
+
+#Socialmediahousing {
+    display: inline-block;
+    vertical-align: right;
+    height: 20em;
+    width: 49.4%;
+    margin-top: 3em;
+    border: solid 2px red;
+}
