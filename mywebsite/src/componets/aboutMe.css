@@ -5,11 +5,10 @@
     height: 100%;
     width: 100%;
     margin: auto;
-    border: solid 2px red;
 }
 
 #aboutcontainer {
-    border: solid 2px green;
+    margin: auto;
 }
 
 #aboutheader {
@@ -57,3 +56,52 @@
 @-webkit-keyframes shadow-pop-br{0%{-webkit-box-shadow:0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e;box-shadow:0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e;-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0)}100%{-webkit-box-shadow:1px 1px #3e3e3e,2px 2px #3e3e3e,3px 3px #3e3e3e,4px 4px #3e3e3e,5px 5px #3e3e3e,6px 6px #3e3e3e,7px 7px #3e3e3e,8px 8px #3e3e3e;box-shadow:1px 1px #3e3e3e,2px 2px #3e3e3e,3px 3px #3e3e3e,4px 4px #3e3e3e,5px 5px #3e3e3e,6px 6px #3e3e3e,7px 7px #3e3e3e,8px 8px #3e3e3e;-webkit-transform:translateX(-8px) translateY(-8px);transform:translateX(-8px) translateY(-8px)}}@keyframes shadow-pop-br{0%{-webkit-box-shadow:0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e;box-shadow:0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e;-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0)}100%{-webkit-box-shadow:1px 1px #3e3e3e,2px 2px #3e3e3e,3px 3px #3e3e3e,4px 4px #3e3e3e,5px 5px #3e3e3e,6px 6px #3e3e3e,7px 7px #3e3e3e,8px 8px #3e3e3e;box-shadow:1px 1px #3e3e3e,2px 2px #3e3e3e,3px 3px #3e3e3e,4px 4px #3e3e3e,5px 5px #3e3e3e,6px 6px #3e3e3e,7px 7px #3e3e3e,8px 8px #3e3e3e;-webkit-transform:translateX(-8px) translateY(-8px);transform:translateX(-8px) translateY(-8px)}}
 @-webkit-keyframes slide-in-left{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes slide-in-left{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
 @-webkit-keyframes slide-in-right{0%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes slide-in-right{0%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+
+/* For phone screens*/
+
+@media only screen and (max-width: 800px){
+/* About me header and text */
+
+#aboutmehousing {
+    grid-area: aboutS;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+#aboutcontainer {
+    margin: auto;
+}
+
+#aboutheader {
+    padding-left: .5em;
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    animation: slide-in-left 2s;
+    animation-fill-mode: forwards;
+}
+
+#abouttextcontainer {
+    margin-top: .2em;
+    margin-bottom: 1.5em;
+}
+
+#aboutsum {
+    font-size: 1.2em;
+    font-family: 'Playfair Display', serif;
+    text-align: start;
+    width: 96%;
+    background-color: rgba(210,245,227, .6);
+    border: solid .2em olive;
+    border-radius: 5%;
+    padding: .2em;
+    animation: slide-in-left 2s;
+    animation-fill-mode: forwards;
+}
+
+.programminglan {
+    display: inline;
+    font-weight: 600;
+}
+}

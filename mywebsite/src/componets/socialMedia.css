@@ -3,13 +3,11 @@
 #Socialmediahousing {
     grid-area: socialS;
     height: 100%;
-    width: 100%;
-    margin: auto;
-    border: solid 2px red;
+    width: 99%;
 }
 
 #socialmediacontainer {
-    border: solid 2px green;
+    margin: auto;
 }
 
 #socialmediatext {
@@ -22,6 +20,9 @@
 #linkscontainer {
     height: 74%;
     width: 100%;
+    background-color: rgba(210,245,227, .6);
+    border: solid .2em olive;
+    border-radius: 14%;
 }
 
 #eachsocialbox {
@@ -30,7 +31,6 @@
     width: 25%;
     padding-top: .3em;
     margin: auto;
-    border: solid 2px purple;
 }
 
 #socialimg {
@@ -40,4 +40,52 @@
 #linkstext {
     font-family: 'Playfair Display', serif;
     font-size: 1.2em;
+}
+
+/* For phone screens*/
+
+@media only screen and (max-width: 800px){
+    /* Social media links*/
+
+#Socialmediahousing {
+    grid-area: socialS;
+    height: 100%;
+    width: 98%;
+}
+
+#socialmediacontainer {
+    margin: auto;
+}
+
+#socialmediatext {
+    padding-left: .5em;
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+#linkscontainer {
+    height: 74%;
+    width: 100%;
+    background-color: rgba(210,245,227, .6);
+    border: solid .2em olive;
+    border-radius: 14%;
+}
+
+#eachsocialbox {
+    display: inline-block;
+    height: 97%;
+    width: 25%;
+    padding-top: .3em;
+    margin: auto;
+}
+
+#socialimg {
+    height: 2em;
+}
+
+#linkstext {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+}
 }

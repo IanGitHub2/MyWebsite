@@ -100,78 +100,23 @@
     animation: slide-in-right 3s;
 }
 
-/* About me header and text */
-
-#aboutmecontainer {
-    margin-bottom: 8em;
-    padding: 1.5em 0em 2em 1em;
-    height: 65em;
-}
-
-#headercontainer {
-    margin-top: 2em;
-}
-
-#aboutheader {
-    font-size: 2.5em;
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    animation: slide-in-left 2s;
-    animation-fill-mode: forwards;
-}
-
-#skillsheader {
-    font-size: 2em;
-    font-family: 'Playfair Display', serif;
-    margin-left: 4.5em;
-    text-align: center;
-    animation: slide-in-right 2s;
-    animation-fill-mode: forwards;
-}
-
-#aboutsum {
-    display: inline-block;
-    font-size: 1em;
-    font-family: 'Playfair Display', serif;
-    text-align: start;
-    width: 16em;
-    background-color: rgba(210,245,227, .6);
-    border: solid .2em olive;
-    border-radius: 5%;
-    padding: 1.2em;
-    animation: slide-in-left 2s;
-    animation-fill-mode: forwards;
-}
-
-.programminglan {
-    display: inline;
-    font-weight: 600;
-}
-
-/* Logos for Skills on phone*/
-
-
-
-#logocontainer {
-    float: right;
-    height: 23em;
-    width: 22em;
-    border-top: solid .2em olive;
-    border-left: solid .2em olive;
-    border-bottom:solid .2em olive;
-    background-color: rgba(210,245,227, .6);
-    border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
-    animation: slide-in-right 2s;
-    animation-fill-mode: forwards;
-}
-
-#aboutmelogos {
-    display: inline-flexbox;
-    padding: 1em 1em;
-    height: 3.5em;
-    width: 3.5em;
-    border-radius: 15%;
-    animation: jello-vertical 3s 4s;
+#middlesection {
+    display: grid;
+    height: 50%;
+    width: 100vw;
+    margin-top: 3em;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'aboutS'
+    'aboutS'
+    'aboutS'
+    'aboutS'
+    'aboutS'
+    'aboutS'
+    'skillS'
+    'skillS'
+    'socialS'
+    ;
 }
 }
