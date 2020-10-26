@@ -59,13 +59,8 @@
 
 @media only screen and (max-width: 800px){
     #projecthousing {
-        grid-area: projects;
         margin-top: 1em;
         width: 100vw;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-areas:
-        'projects';
     }
     
     #projectsContainer {
@@ -81,7 +76,9 @@
     
     #eachproject {
         height: 80%;
-        width: 80%;
+        width: 82%;
+        padding: 1em 1em;
+        margin: 1em 1em;
         background-color: rgb(173, 217, 238);
         border-radius: 10%;
         border:solid .2em rgb(73, 184, 218) ;
