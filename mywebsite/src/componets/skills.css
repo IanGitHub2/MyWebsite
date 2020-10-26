@@ -1,11 +1,10 @@
 /* Skills header and logos*/
 
 #skillshousing {
-display: inline-block;
-vertical-align: top;
-height: 30em;
-width: 49.4%;
-margin-top: 3em;
+grid-area: skillS;
+height: 100%;
+width: 100%;
+margin: auto;
 border: solid 2px red;
 }
 

@@ -34,6 +34,19 @@
     animation: slide-in-right 3s;
 }
 
+#middlesection {
+    display: grid;
+    height: 50em;
+    width: 100vw;
+    margin-top: 3em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    'aboutS skillS'
+    'aboutS skillS'
+    'aboutS socialS'
+    ;
+}
 /* Animations stuff*/
 @-webkit-keyframes scale-up-bottom{0%{-webkit-transform:scale(.5);transform:scale(.5);-webkit-transform-origin:50% 100%;transform-origin:50% 100%}100%{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 100%;transform-origin:50% 100%}}@keyframes scale-up-bottom{0%{-webkit-transform:scale(.5);transform:scale(.5);-webkit-transform-origin:50% 100%;transform-origin:50% 100%}100%{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 100%;transform-origin:50% 100%}}
 @-webkit-keyframes scale-up-hor-right{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}}@keyframes scale-up-hor-right{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}}

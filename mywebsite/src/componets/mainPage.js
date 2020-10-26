@@ -22,10 +22,12 @@ export default class mainPage extends React.Component {
                     <p id='jobtext'>Software Engineer</p>
                 </div>
              </div>
-          <Aboutme/>
-          <Skills/>
-          <Socialmedia/>
-          <Myprojects/>
+             <div id='middlesection'>
+                <Aboutme/>
+                <Skills/>
+                <Socialmedia/>
+            </div>
+            <Myprojects/>
          </div>
      )
  }

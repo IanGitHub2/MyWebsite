@@ -1,10 +1,43 @@
 /* Social media links*/
 
 #Socialmediahousing {
-    display: inline-block;
-    vertical-align: right;
-    height: 20em;
-    width: 49.4%;
-    margin-top: 3em;
+    grid-area: socialS;
+    height: 100%;
+    width: 100%;
+    margin: auto;
     border: solid 2px red;
+}
+
+#socialmediacontainer {
+    border: solid 2px green;
+}
+
+#socialmediatext {
+    padding-left: .5em;
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+    text-align: start;
+}
+
+#linkscontainer {
+    height: 74%;
+    width: 100%;
+}
+
+#eachsocialbox {
+    display: inline-block;
+    height: 97%;
+    width: 25%;
+    padding-top: .3em;
+    margin: auto;
+    border: solid 2px purple;
+}
+
+#socialimg {
+    height: 4em;
+}
+
+#linkstext {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
 }
