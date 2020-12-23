@@ -11,7 +11,7 @@
 }
 
 #socialmediatext {
-    padding-left: .5em;
+    padding-left: .1em;
     font-size: 3em;
     font-family: 'Playfair Display', serif;
     text-align: start;
@@ -20,9 +20,9 @@
 #linkscontainer {
     height: 74%;
     width: 100%;
-    background-color: rgba(210,245,227, .6);
-    border: solid .2em olive;
-    border-radius: 14%;
+    background-color: rgba(241, 239, 239, 0.829);
+    border: solid .05em gray;
+    border-radius: 1%;
 }
 
 #eachsocialbox {

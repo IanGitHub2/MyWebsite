@@ -14,7 +14,7 @@ text-align: left;
 #skillsheader {
 font-size: 3em;
 font-family: 'Playfair Display', serif;
-padding-left: .5em;
+padding-left: 1.7em;
 animation: slide-in-right 2s;
 animation-fill-mode: forwards;
 }
@@ -23,19 +23,19 @@ animation-fill-mode: forwards;
 
 #logocontainer {
 float: right;
-margin: 2em 0em;
+margin: 1em 0em;
 }
 
 #alllogos {
 display: inline-block;
 height: 23em;
 width: 40em;
-border-top: solid .2em olive;
-border-left: solid .2em olive;
-border-bottom:solid .2em olive;
-background-color: rgba(210,245,227, .6);
-border-top-left-radius: 10%;
-border-bottom-left-radius: 10%;
+border-top: solid .05em gray;
+border-left: solid .05em gray;
+border-bottom:solid .05em gray;
+background-color: rgba(241, 239, 239, 0.829);
+border-top-left-radius: 1%;
+border-bottom-left-radius: 1%;
 animation: slide-in-right 2s;
 animation-fill-mode: forwards;
 }
