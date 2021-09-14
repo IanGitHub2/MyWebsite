@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import mainPage from './componets/mainPage';
-import myProjects from './componets/myProjects';
+import myProjects from './componets/projectSection/myProjects';
 
 function App() {
   return (

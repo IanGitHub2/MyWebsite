@@ -15,7 +15,7 @@
 }
 
 #eachproject {
-    float: left;
+    display:inline-table;
     margin: 1em 4.8em;
     height: 23em;
     width: 35em;
@@ -35,6 +35,10 @@
     background-color: rgba(80, 80, 80, 0.733);
 }
 
+:hover.linknavbar {
+    background-color: rgba(191, 225, 253, 0.733);
+}
+
 .linktext {
     display: inline-block;
     width: 8em;
@@ -42,6 +46,18 @@
     font-family: 'Playfair Display', serif;
     animation: shake-horizontal 2s 6s;
     color: aliceblue;
+    border-right: .02em solid white;
+    border-left: .02em solid white;
+    border-radius: 2%; 
+}
+
+:hover.linktext {
+    display: inline-block;
+    width: 8em;
+    margin: 0em 4em 0em 4em;
+    font-family: 'Playfair Display', serif;
+    animation: shake-horizontal 2s 6s;
+    color: rgb(0, 0, 0);
     border-right: .02em solid white;
     border-left: .02em solid white;
     border-radius: 2%;
@@ -70,7 +86,7 @@
     
     #projectsContainer {
         overflow: auto;
-        background-color: rgba(79, 172, 209, 0.8);
+        background-color: rgba(79, 172, 209, 0.5);
     }
     
     #projectsheader {
@@ -84,9 +100,9 @@
         width: 82%;
         padding: 1em 1em;
         margin: 1em 1em;
-        background-color: rgb(173, 217, 238);
-        border-radius: 10%;
-        border:solid .2em rgb(73, 184, 218) ;
+        background-color: rgba(240, 240, 240, 0.808);
+        border-radius: 2%;
+        border: .1em solid rgb(73, 184, 218) ;
     }
     
     .projecttitle {
@@ -94,6 +110,11 @@
         font-family: 'Playfair Display', serif;
         font-weight: 500;
     }
+
+    .linknavbar {
+        background-color: rgba(94, 93, 93, 0.733);
+    }
+
     
     .linktext {
         display: inline-block;
@@ -102,7 +123,6 @@
         font-family: 'Playfair Display', serif;
         font-size: .8em;
         animation: shake-horizontal 2s 6s;
-        background-color: gray;
         color: aliceblue;
         border-radius: 10%;
     }

@@ -2,8 +2,8 @@
 
 #welcomecontainer {
     background-color: rgba(148,180,164, .7);
-    border-bottom-left-radius: 30%;
-    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
     animation: shadow-drop-center 3s;
     animation-fill-mode: forwards;
 }
@@ -68,8 +68,8 @@
 
 #welcomecontainer {
     background-color: rgba(148,180,164, .7);
-    border-bottom-left-radius: 30%;
-    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
     animation: shadow-drop-center 3s;
     animation-fill-mode: forwards;
 }

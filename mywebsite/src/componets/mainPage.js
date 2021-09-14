@@ -1,8 +1,8 @@
 import React from "react";
-import Aboutme from './aboutMe'
-import Skills from './skills'
-import Socialmedia from './socialMedia'
-import Myprojects from './myProjects'
+import Aboutme from './aboutSection/aboutMe'
+import Skills from './skillSection/skills'
+import Socialmedia from './socialSection/socialMedia'
+import Myprojects from './projectSection/myProjects'
 //import { Link } from 'react-router-dom'
 import './mainPage.css'
 
