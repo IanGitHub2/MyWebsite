@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { evaluate } from 'mathjs'
 import './claculator.css'
 
 function Calculator() {
@@ -16,7 +17,7 @@ function Calculator() {
             setCalc(calc + value);
 
             if (!ops.includes(value)) {
-                setResult(eval(calc + value).toString())
+                setResult(evaluate(calc + value).toString())
             }
         }
 
@@ -31,7 +32,7 @@ function Calculator() {
         }
 
         const calculate = () => {
-            setCalc(eval(calc).toString());
+            setCalc(evaluate(calc).toString());
         }
 
         const deleteLast = () => {
