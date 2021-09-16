@@ -1,0 +1,18 @@
+.array_container {
+    position: relative;
+    margin-top: .8em;
+}
+
+.array_bar {
+    width: 2px;
+    display: inline-block;
+    margin: 0 1px;
+}
+
+.button {
+    display: inline;
+    margin: .1em;
+    padding: .2em;
+    color: black;
+    background-color: steelblue;
+}

@@ -6,7 +6,7 @@ import Cps from '../../images/cps.png';
 import Rush from '../../images/rush.png';
 import Clock from '../builtInProjects/clock/clock';
 import Calculator from '../builtInProjects/calculator/calculator';
-import BubbleSort from '../builtInProjects/bubbleSort/bubbleSort';
+import SortingVisualizer from '../builtInProjects/SortingVisualizer/sortingVisualizer'
 
 export default class myProjects extends React.Component {
     render(){
@@ -17,8 +17,8 @@ export default class myProjects extends React.Component {
                     <div id='projectsContainer'>
 
                         <div id='eachproject'>
-                            <div className='projecttitle'>Built in Bubble Sort</div>
-                            <BubbleSort/>
+                            <div className='projecttitle'>Built in Sorting 'Alg'</div>
+                            <SortingVisualizer/>
                         </div>
 
                         <div id='eachproject'>
