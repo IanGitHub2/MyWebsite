@@ -17,6 +17,15 @@ export default class myProjects extends React.Component {
                     <div id='projectsContainer'>
 
                         <div id='eachproject'>
+                            <div className='projecttitle'>Links for built in projects</div>
+                            <div className='linknavbar'>
+                                <a href='https://github.com/IanGitHub2/MyWebsite/tree/main/mywebsite/src/componets/builtInProjects/clock' target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Clock Code</div></a>
+                                <a href='https://github.com/IanGitHub2/MyWebsite/tree/main/mywebsite/src/componets/builtInProjects/calculator' target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Calculator Code</div></a>
+                                <a href='https://github.com/IanGitHub2/MyWebsite/tree/main/mywebsite/src/componets/builtInProjects/bubbleSort' target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Sorting Code</div></a>
+                            </div>
+                        </div>
+
+                        <div id='eachproject'>
                             <div className='projecttitle'>Built in Sorting 'Alg'</div>
                             <SortingVisualizer/>
                         </div>
