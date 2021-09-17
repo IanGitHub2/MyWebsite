@@ -33,7 +33,7 @@ export default class sortingVisualizer extends React.Component {
     mergeSort() {
         const animations = getMergeSortAnimations(this.state.array);
         for (let i = 0; i < animations.length; i++) {
-            const arrayBars = document.getElementsByClassName('array_bar');
+            const arrayBars = document.getElementsByClassName('array-bar');
             const isColorChange = i % 3 !== 2;
             if (isColorChange) {
                 const [barOneIdx, barTwoIdx] = animations[i];
@@ -86,7 +86,7 @@ export default class sortingVisualizer extends React.Component {
             <div className='array_container'>
                 {array.map((value, idx) => (
                     <div 
-                        className='array_bar'
+                        className='array-bar'
                         key={idx}
                         style={{
                             backgroundColor: PRIMARY_COLOR,
