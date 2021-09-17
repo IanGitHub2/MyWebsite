@@ -9,10 +9,95 @@
     margin: 0 1px;
 }
 
+.buttons-container {
+    margin: .01em;
+}
+
 .button {
     display: inline;
     margin: .1em;
     padding: .2em;
     color: black;
     background-color: steelblue;
+}
+
+@media only screen and (max-width: 800px){
+
+    .array_container {
+        position: relative;
+        margin-top: .8em;
+    }
+    
+    .array-bar {
+        width: .05em;
+        display: inline-block;
+        margin: 0 1px;
+    }
+
+    .buttons-container {
+        margin: .01em;
+    }
+    
+    .button {
+        display: inline;
+        margin: .1em;
+        padding: .2em;
+        color: black;
+        background-color: steelblue;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+
+    .array_container {
+        position: relative;
+        margin-top: .8em;
+    }
+    
+    .array-bar {
+        width: .02em;
+        display: inline-block;
+        margin: 0 1px;
+    }
+
+    .buttons-container {
+        margin: .01em;
+    }
+    
+    .button {
+        display: inline;
+        margin: .1em;
+        padding: .2em;
+        color: black;
+        background-color: steelblue;
+    }
+
+}
+
+@media only screen and (max-width: 400px){
+
+    .array_container {
+        position: relative;
+        margin-top: .8em;
+    }
+    
+    .array-bar {
+        width: .01em;
+        display: inline-block;
+        margin: 0 1px;
+    }
+
+    .buttons-container {
+        margin: .01em;
+    }
+    
+    .button {
+        display: inline;
+        margin: .1em;
+        padding: .2em;
+        color: black;
+        background-color: steelblue;
+    }
+
 }

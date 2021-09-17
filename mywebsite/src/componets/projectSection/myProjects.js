@@ -38,6 +38,7 @@ export default class myProjects extends React.Component {
                         <div id='eachproject'>
                             <div className='projecttitle'>Built in Clock</div>
                             <Clock/>
+                            <div className='clockstuff'>i</div>
                         </div>
 
                         <div id='eachproject'>
