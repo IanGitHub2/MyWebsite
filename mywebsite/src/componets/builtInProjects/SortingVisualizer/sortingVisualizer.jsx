@@ -1,5 +1,5 @@
 import React from "react";
-import { getMergeSortAnimations } from "./sortingAlgorithms";
+import { getMergeSortAnimations, getQuickSortAnimations } from "./sortingAlgorithms";
 import './sortingVisualizer.css'
 
 const ANIMATION_SPEED_MS = 1;
@@ -55,7 +55,27 @@ export default class sortingVisualizer extends React.Component {
     }
 
     quickSort() {
-
+        const qucikAnimations = getQuickSortAnimations(this.state.array);
+        for (let i = 0; i < qucikAnimations.length; i++) {
+            const arrayBarsQ = document.getElementsByClassName('array-bar');
+            const isColorChangeQ = i % 3 !== 2;
+            if (isColorChangeQ) {
+                const [barOneIdxQ, barTwoIdxQ] = qucikAnimations[i];
+                const barOneStyleQ = arrayBarsQ[barOneIdxQ].style;
+                const barTwoStyleQ = arrayBarsQ[barTwoIdxQ].style;
+                const colorQ = i % 3 === 0 ? SECONDARY_COLOR : PRIMARY_COLOR;
+                setTimeout(() => {
+                    barOneStyleQ.backgroungColor = colorQ;
+                    barTwoStyleQ.backgroungColor = colorQ;
+                }, i * ANIMATION_SPEED_MS);
+            } else {
+                setTimeout(() => {
+                    const [barOneIdxQ, newHeightQ] = qucikAnimations[i];
+                    const barOneStyleQ = arrayBarsQ[barOneIdxQ].style;
+                    barOneStyleQ.height = `${newHeightQ}px`
+                }, i * ANIMATION_SPEED_MS);
+            }
+        }
     }
 
     heapSort() {
@@ -96,10 +116,10 @@ export default class sortingVisualizer extends React.Component {
                 <div className='buttons-container'>
                     <button className='button' onClick={() => this.resetArray()}>New Array</button>
                     <button className='button' onClick={() => this.mergeSort()}>Merge Sort</button>
-                    <button className='button' onClick={() => this.quickSort()}>Quick Sort</button>
+                    {/* <button className='button' onClick={() => this.quickSort()}>Quick Sort</button>
                     <button className='button' onClick={() => this.heapSort()}>Heap Sort</button>
                     <button className='button' onClick={() => this.bubbleSort()}>Bubble Sort</button>
-                    <button className='button' onClick={() => this.testSortingAlgorithms()}>Test Sorting alg</button>
+                    <button className='button' onClick={() => this.testSortingAlgorithms()}>Test Sorting alg</button> */}
                 </div>
             </div>
         )

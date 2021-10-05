@@ -32,11 +32,11 @@
 }
 
 .linknavbar {
-    background-color: rgba(80, 80, 80, 0.733);
+    background-color: rgba(191, 225, 253, 0.733);
 }
 
 :hover.linknavbar {
-    background-color: rgba(191, 225, 253, 0.733);
+    background-color: rgba(80, 80, 80, 0.733);
 }
 
 .linktext {
@@ -45,7 +45,7 @@
     margin: 0em 4em 0em 4em;
     font-family: 'Playfair Display', serif;
     animation: shake-horizontal 2s 6s;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     border-right: .02em solid white;
     border-left: .02em solid white;
     border-radius: 2%; 
@@ -57,7 +57,7 @@
     margin: 0em 4em 0em 4em;
     font-family: 'Playfair Display', serif;
     animation: shake-horizontal 2s 6s;
-    color: rgb(0, 0, 0);
+    color: aliceblue;
     border-right: .02em solid white;
     border-left: .02em solid white;
     border-radius: 2%;

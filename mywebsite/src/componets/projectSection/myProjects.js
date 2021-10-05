@@ -1,12 +1,11 @@
 import React from 'react';
 import './myProjects.css';
-import Connect4 from '../../images/connectgame.png';
-import Homemovies from '../../images/homemovies.png';
-import Cps from '../../images/cps.png';
-import Rush from '../../images/rush.png';
-import Clock from '../builtInProjects/clock/clock';
-import Calculator from '../builtInProjects/calculator/calculator';
-import SortingVisualizer from '../builtInProjects/SortingVisualizer/sortingVisualizer'
+import { Connect4, Homemovies, Cps, Rush, ECommerceProject } from '../../images';
+import { Clock, Calculator, SortingVisualizer } from '../builtInProjects';
+
+let clockLink = 'https://github.com/IanGitHub2/MyWebsite/tree/main/mywebsite/src/componets/builtInProjects/clock';
+let calculatorLink = 'https://github.com/IanGitHub2/MyWebsite/tree/main/mywebsite/src/componets/builtInProjects/calculator';
+let sortingVisualizerLink = 'https://github.com/IanGitHub2/MyWebsite/tree/main/mywebsite/src/componets/builtInProjects/SortingVisualizer';
 
 export default class myProjects extends React.Component {
     render(){
@@ -19,10 +18,20 @@ export default class myProjects extends React.Component {
                         <div id='eachproject'>
                             <div className='projecttitle'>Links for built in projects</div>
                             <div className='linknavbar'>
-                                <a href='https://github.com/IanGitHub2/MyWebsite/tree/main/mywebsite/src/componets/builtInProjects/clock' target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Clock Code</div></a>
-                                <a href='https://github.com/IanGitHub2/MyWebsite/tree/main/mywebsite/src/componets/builtInProjects/calculator' target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Calculator Code</div></a>
-                                <a href='https://github.com/IanGitHub2/MyWebsite/tree/main/mywebsite/src/componets/builtInProjects/bubbleSort' target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Sorting Code</div></a>
+                                <a href={clockLink} target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Clock Code</div></a>
+                                <a href={calculatorLink} target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Calculator Code</div></a>
+                                <a href={sortingVisualizerLink} target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Sorting Code</div></a>
                             </div>
+                        </div>
+
+                        <div id='eachproject'>
+                            <div className='projecttitle'>E-Commerce Project</div>
+                            <img className='projectimages' alt='E-Commerce-project' src={ECommerceProject}/>
+                        <div className='linknavbar'>
+                            {/* <a href='m' target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Website</div></a> */}
+                            <a href='https://github.com/IanGitHub2/E-Commerce-project' target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Code</div></a>
+                        </div>
+                        <div className='projectdef'>A fully functional "test" eCommerce application using commerce.js and stripe.</div>
                         </div>
 
                         <div id='eachproject'>

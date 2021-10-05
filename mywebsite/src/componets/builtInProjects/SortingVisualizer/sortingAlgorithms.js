@@ -1,3 +1,5 @@
+//credit https://github.com/clementmihailescu/Sorting-Visualizer-Tutorial/tree/master/src for base of project.
+
 export function getMergeSortAnimations(array) {
     const animations = [];
     if (array.length <= 1) return array;
@@ -56,4 +58,7 @@ function doMerge (
         animations.push([ k, auxiliaryArray[j]]);
         mainArray[k++] = auxiliaryArray[j++]
     }
+}
+
+export function getQuickSortAnimations() {
 }
