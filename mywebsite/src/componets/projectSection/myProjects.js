@@ -28,7 +28,7 @@ export default class myProjects extends React.Component {
                             <div className='projecttitle'>E-Commerce Project</div>
                             <img className='projectimages' alt='E-Commerce-project' src={ECommerceProject}/>
                         <div className='linknavbar'>
-                            {/* <a href='m' target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Website</div></a> */}
+                            <a href='serene-nightingale-804c17.netlify.app' target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Website</div></a>
                             <a href='https://github.com/IanGitHub2/E-Commerce-project' target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Code</div></a>
                         </div>
                         <div className='projectdef'>A fully functional "test" eCommerce application using commerce.js and stripe.</div>
