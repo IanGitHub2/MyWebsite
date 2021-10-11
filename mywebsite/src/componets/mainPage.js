@@ -8,27 +8,27 @@ import './mainPage.css'
 
 export default class mainPage extends React.Component {
 
- componetDidMount(){
-     console.log('mainPage mounted')
- }
+componetDidMount(){
+    console.log('mainPage mounted')
+}
 
- render(){
-     return(
-         <div>
-             <div id='welcomecontainer'>
+render(){
+    return(
+        <div>
+            <div id='welcomecontainer'>
                 <div id='welcomeheaderbackground'>
                     <p id='welcometext'>Welcome</p>
                     <p id='nametext'>I'm Ian Kincaid</p>
                     <p id='jobtext'>Software Engineer</p>
                 </div>
-             </div>
-             <div id='middlesection'>
+            </div>
+            <div id='middlesection'>
                 <Aboutme/>
                 <Skills/>
                 <Socialmedia/>
             </div>
             <Myprojects/>
-         </div>
-     )
- }
+        </div>
+    )
+}
 }
