@@ -18,9 +18,9 @@ export default class clock extends React.Component {
         }, 1000);
     }
 
-    componentWillMount() {
-        clearInterval(this.timerId);
-    }
+    // UNSAFE_componentWillMount() {
+    //     clearInterval(this.timerId);
+    // }
 
     render(){
         return(

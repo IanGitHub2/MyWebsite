@@ -1,7 +1,7 @@
 import React from 'react';
 import './myProjects.css';
 import { Connect4, Homemovies, Cps, Rush, ECommerceProject } from '../../images';
-import { Clock, Calculator, SortingVisualizer } from '../builtInProjects';
+import { Clock, Calculator, SortingVisualizer, RandomNameGenerator } from '../builtInProjects';
 
 
 //Code links only 'Cod'
@@ -18,9 +18,9 @@ let bikeCod = 'https://github.com/IanGitHub2/Bike-Repair-App';
 
 
 //Website links only 'Web'
-let ecommerceWeb = 'https://serene-nightingale-804c17.netlify.app';
-let moviesWeb = 'https://brave-nobel-691c58.netlify.app';
-let connetWeb = 'https://infallible-mcnulty-f386b4.netlify.app';
+let ecommerceWeb = 'https://starter-e-commerce-app.netlify.app';
+let moviesWeb = 'https://movie-com.netlify.app/';
+let connetWeb = 'https://connect-4-wrap.netlify.app';
 let rushWeb = 'https://rush-project-3.herokuapp.com/';
 let cpsWeb = 'https://infinite-badlands-56464.herokuapp.com/company/';
 
@@ -56,6 +56,11 @@ export default class myProjects extends React.Component {
                             <a href={ecommerceCod} target="_blank" rel='noopener noreferrer'><div className='linktext'>Link to Code</div></a>
                         </div>
                         <div className='projectdef'>A fully functional "test" eCommerce application using commerce.js and stripe.</div>
+                        </div>
+
+                        <div id='eachproject'>
+                            <div className='projecttitle'>Built in Random Name Generator</div>
+                            <RandomNameGenerator/>
                         </div>
 
                         <div id='eachproject'>
