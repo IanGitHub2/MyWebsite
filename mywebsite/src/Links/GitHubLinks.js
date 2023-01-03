@@ -9,3 +9,5 @@ export let connetCod = 'https://github.com/IanGitHub2/Project-1---Connect-4';
 export let rushCod = 'https://github.com/IanGitHub2/Project3Rush';
 export let cpsCod = 'https://github.com/IanGitHub2/Project-2-C.P.S';
 export let bikeCod = 'https://github.com/IanGitHub2/Bike-Repair-App';
+export let sharesocialCod = 'https://github.com/IanGitHub2/FStack-Social-media-app';
+export let dashboardCod = 'https://github.com/IanGitHub2/DashBoard';

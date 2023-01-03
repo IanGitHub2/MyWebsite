@@ -1,5 +1,5 @@
 import React from 'react';
-import { JavascriptLogo, ReactLogo, PythonLogo, DjangoLogo, AngularLogo, JavaLogo, SqlLogo, NodeLogo, MongoDBLogo, ExpressLogo, MERNLogo, VSCODELogo, PycharmLogo, SublimeLogo, MUILogo, GoogleFontsLogo, StripeLogo, CssLogo, TailwindLogo, HtmlLogo, BootstrapLogo, CommercejsLogo, AxiosLogo, GoogleAuthLibLogo } from '../../Links/ImgLinks';
+import { JavascriptLogo, ReactLogo, PythonLogo, DjangoLogo, AngularLogo, JavaLogo, SqlLogo, NodeLogo, MongoDBLogo, ExpressLogo, MERNLogo, VSCODELogo, PycharmLogo, SublimeLogo, MUILogo, GoogleFontsLogo, StripeLogo, CssLogo, TailwindLogo, HtmlLogo, BootstrapLogo, CommercejsLogo, AxiosLogo, GoogleAuthLibLogo, SyncfusionLogo, SanityLogo, ReactIconLogo, ReactRDLogo } from '../../Links/ImgLinks';
 
 export default class skills extends React.Component {
     render(){
@@ -100,8 +100,24 @@ export default class skills extends React.Component {
                         <div>Commerce.JS</div>
                     </div>
                     <div className='py-2 px-2 w-max h-16 bg-sky-200 text-sky-800 rounded-md'>
+                        <img className='w-10 h-10 rounded-md inline' alt='Sanity Logo' src={SanityLogo}/>
+                        <div>Sanity</div>
+                    </div>
+                    <div className='py-2 px-2 w-max h-16 bg-sky-200 text-sky-800 rounded-md'>
+                        <img className='w-10 h-10 rounded-md inline' alt='Syncfusion Logo' src={SyncfusionLogo}/>
+                        <div>Syncfusion</div>
+                    </div>
+                    <div className='py-2 px-2 w-max h-16 bg-sky-200 text-sky-800 rounded-md'>
                         <img className='w-10 h-10 rounded-md inline' alt='Axios Logo' src={AxiosLogo}/>
                         <div>Axios</div>
+                    </div>
+                    <div className='py-2 px-2 w-max h-16 bg-sky-200 text-sky-800 rounded-md'>
+                        <img className='w-10 h-10 rounded-md inline' alt='React Router Dom Logo' src={ReactRDLogo}/>
+                        <div>React-Router-Dom</div>
+                    </div>
+                    <div className='py-2 px-2 w-max h-16 bg-sky-200 text-sky-800 rounded-md'>
+                        <img className='w-10 h-10 rounded-md inline' alt='React-Icon Logo' src={ReactIconLogo}/>
+                        <div>React-Icon</div>
                     </div>
 
                     {/* Database comment */}
