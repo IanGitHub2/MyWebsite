@@ -11,3 +11,4 @@ export let cpsCod = 'https://github.com/IanGitHub2/Project-2-C.P.S';
 export let bikeCod = 'https://github.com/IanGitHub2/Bike-Repair-App';
 export let sharesocialCod = 'https://github.com/IanGitHub2/FStack-Social-media-app';
 export let dashboardCod = 'https://github.com/IanGitHub2/DashBoard';
+export let nextjspracticeCod = 'https://github.com/IanGitHub2/Nextjs-practice';

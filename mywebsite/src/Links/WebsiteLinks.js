@@ -6,3 +6,4 @@ export let rushWeb = 'https://rush-project-3.herokuapp.com/';
 export let cpsWeb = 'https://infinite-badlands-56464.herokuapp.com/company/';
 export let sharesocialWeb = 'https://share-social-app.netlify.app/';
 export let dashboardWeb = 'https://practice-dashboard-js.netlify.app/';
+export let nextjspracticeWeb = 'https://nextjs-practice-site.netlify.app/';

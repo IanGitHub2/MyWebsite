@@ -18,7 +18,7 @@ export default class aboutMe extends React.Component {
                     <div className='text-2xl text-sky-700 font-semibold'>
                         <div>Currently Studying</div>
                     </div>
-                    <div className='text-sm'>Next.js</div>
+                    <div className='text-sm'>More Next.js and maybe a Fullstack Java App.</div>
                 </div>
                 <div className='my-3 '>
                     <div className='text-left text-xl text-sky-700 font-semibold'>
